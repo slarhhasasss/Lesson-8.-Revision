@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lesson 8. Revision</string>
+    <string name="menu_item_entry">Войти</string>
+    <string name="text_view_check_activity_main">Проверь свою ориентацию</string>
+    <string name="button_check_activity_main">проверить</string>
+    <string name="button_yes_activity_quest">Да</string>
+    <string name="button_no_activity_quest">Нет</string>
+    <string name="text_view_activity_quest">Вопрос</string>
+    <string name="button_to_res_activity_quest">к результатам</string>
+    <string name="button_exit_activity_main">Выход</string>
+</resources>

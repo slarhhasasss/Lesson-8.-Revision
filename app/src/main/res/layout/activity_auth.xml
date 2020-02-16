@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_dodgeInsetEdges="bottom">
+
+        <EditText
+            android:id="@+id/editTextNameActivityAuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name..."
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.268" />
+
+        <TextView
+            android:id="@+id/textViewNameActivityAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите имя"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNameActivityAuth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <EditText
+            android:id="@+id/editTextAgeActivityAuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Age..."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAgeActivityAuth"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textViewAgeActivityAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите возраст"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNameActivityAuth"
+            app:layout_constraintVertical_bias="0.115" />
+
+        <Button
+            android:id="@+id/buttonSubmitActivityAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Подтвердить"
+            android:onClick="onClickActivityAuth"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAgeActivityAuth"
+            app:layout_constraintVertical_bias="0.134" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</FrameLayout>
+
+
+
+
